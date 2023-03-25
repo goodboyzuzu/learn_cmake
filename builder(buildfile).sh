@@ -1,7 +1,5 @@
 #! /bin/sh
-# This script is to create directory called build. if it exists, remove it and create a new one.
+# remove content in build directory
 
-if [ -d build ]; then
-    rm -rf build
-fi
+rm -rf build
 mkdir build
