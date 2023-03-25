@@ -11,5 +11,5 @@ endif()
 add_executable(target tutorial.cpp)
 target_link_libraries(target PUBLIC ${EXTRA_LIBS})
 target_include_directories(target PUBLIC #private means that this is only for this target
-                          ${PROJECT_BINARY_DIR} #for TutorialConfig.h
+                          ${PROJECT_BINARY_DIR} #for TutorialConfig.h as it is built there.
                           )
