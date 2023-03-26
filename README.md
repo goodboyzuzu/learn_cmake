@@ -14,3 +14,6 @@ runner: to run build cmake
 STATIC libraries are archives of object files for use when linking other targets. 
 SHARED libraries are linked dynamically and loaded at runtime.
 MODULE libraries are plugins that are not linked into other targets but may be loaded dynamically at runtime using dlopen-like functionality.
+
+**Adding system introspection**
+to check if platform has the functionality of log and exp
